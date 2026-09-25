@@ -1,0 +1,138 @@
+# =====================================
+# Project Configuration
+# =====================================
+
+project:
+  name: "Explainable AI Cyber Threat Detection"
+  random_seed: 42
+
+
+# =====================================
+# Dataset Paths
+# =====================================
+
+dataset:
+
+  primary_dataset: "CICIoT2023"
+  secondary_dataset: "Edge-IIoTset"
+
+
+  ciciot2023:
+
+    csv_path: "data/raw/ciciot2023/csv"
+    pcap_path: "data/raw/ciciot2023/pcap"
+
+
+  edge_iiotset:
+
+    csv_path: "data/raw/edge_iiotset/csv"
+    pcap_path: "data/raw/edge_iiotset/pcap"
+
+
+
+# =====================================
+# Data Processing
+# =====================================
+
+processing:
+
+  task: "binary"
+
+  train_ratio: 0.60
+  validation_ratio: 0.20
+  test_ratio: 0.20
+
+  remove_duplicates: true
+
+  handle_missing_values: true
+
+
+
+# =====================================
+# Machine Learning
+# =====================================
+
+model:
+
+  random_state: 42
+
+
+  xgboost:
+
+    n_estimators: 1000
+
+    learning_rate: 0.05
+
+    max_depth: 8
+
+    subsample: 0.8
+
+    colsample_bytree: 0.8
+
+    objective: "binary:logistic"
+
+    eval_metric: "logloss"
+
+
+
+# =====================================
+# Anomaly Detection
+# =====================================
+
+anomaly:
+
+  model: "IsolationForest"
+
+  contamination: 0.01
+
+
+
+# =====================================
+# Explainable AI
+# =====================================
+
+xai:
+
+  method: "SHAP"
+
+  top_features: 10
+
+
+
+# =====================================
+# Concept Drift
+# =====================================
+
+drift:
+
+  method: "ADWIN"
+
+  enabled: true
+
+
+
+# =====================================
+# Explanation Reliability Score
+# =====================================
+
+ers:
+
+  stability_weight: 0.4
+
+  rank_weight: 0.3
+
+  faithfulness_weight: 0.3
+
+
+
+# =====================================
+# Adaptive Response
+# =====================================
+
+response:
+
+  confidence_threshold: 0.80
+
+  ers_threshold: 0.70
+
+  risk_threshold: 0.75

@@ -1,0 +1,11 @@
+{
+    "total_files": 169,
+    "train_files": 101,
+    "validation_files": 33,
+    "test_files": 35,
+    "overlap": {
+        "train_val": 0,
+        "train_test": 0,
+        "val_test": 0
+    }
+}

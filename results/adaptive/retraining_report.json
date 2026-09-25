@@ -1,0 +1,5 @@
+{
+    "drift_point": 2500319,
+    "retraining_samples": 200000,
+    "model": "E:\\Programming\\Cyber Threat Detection\\models\\adaptive\\adaptive_xgboost.json"
+}

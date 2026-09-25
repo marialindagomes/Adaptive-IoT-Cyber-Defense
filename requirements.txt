@@ -1,0 +1,32 @@
+# Data processing
+pandas
+numpy
+scipy
+pyarrow
+
+# Machine Learning
+scikit-learn
+xgboost
+
+# Explainable AI
+shap
+
+# Drift Detection
+river
+
+# Configuration
+pyyaml
+
+# Model saving
+joblib
+
+# Visualization
+matplotlib
+seaborn
+
+# Progress
+tqdm
+
+# Jupyter support
+jupyter
+ipykernel

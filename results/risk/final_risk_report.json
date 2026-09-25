@@ -1,0 +1,7 @@
+{
+    "samples": 5000,
+    "risk_distribution": {
+        "High": 4980,
+        "Medium": 20
+    }
+}

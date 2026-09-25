@@ -1,0 +1,20 @@
+{
+    "threshold": 0.6,
+    "accuracy": 0.7778171928579874,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "macro_f1": 0.43751247090123047,
+    "mcc": 0.0,
+    "roc_auc": 0.5,
+    "confusion_matrix": [
+        [
+            26312,
+            0
+        ],
+        [
+            7516,
+            0
+        ]
+    ]
+}

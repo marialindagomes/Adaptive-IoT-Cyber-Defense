@@ -1,0 +1,85 @@
+{
+    "samples": 5000,
+    "top_features": [
+        {
+            "feature": "rst_count",
+            "importance": 2.125112295150757
+        },
+        {
+            "feature": "Number",
+            "importance": 1.3921315670013428
+        },
+        {
+            "feature": "Tot size",
+            "importance": 1.2032814025878906
+        },
+        {
+            "feature": "flow_duration",
+            "importance": 0.9268584847450256
+        },
+        {
+            "feature": "urg_count",
+            "importance": 0.6162750720977783
+        },
+        {
+            "feature": "Header_Length",
+            "importance": 0.5928189754486084
+        },
+        {
+            "feature": "Variance",
+            "importance": 0.4419798254966736
+        },
+        {
+            "feature": "Max",
+            "importance": 0.3838246166706085
+        },
+        {
+            "feature": "Protocol Type",
+            "importance": 0.3556516468524933
+        },
+        {
+            "feature": "Weight",
+            "importance": 0.34115734696388245
+        },
+        {
+            "feature": "Rate",
+            "importance": 0.3088614344596863
+        },
+        {
+            "feature": "IAT",
+            "importance": 0.24840620160102844
+        },
+        {
+            "feature": "Std",
+            "importance": 0.19620531797409058
+        },
+        {
+            "feature": "Radius",
+            "importance": 0.14148150384426117
+        },
+        {
+            "feature": "ack_flag_number",
+            "importance": 0.13351747393608093
+        },
+        {
+            "feature": "Duration",
+            "importance": 0.12636235356330872
+        },
+        {
+            "feature": "Tot sum",
+            "importance": 0.11448937654495239
+        },
+        {
+            "feature": "UDP",
+            "importance": 0.08586079627275467
+        },
+        {
+            "feature": "AVG",
+            "importance": 0.0797639787197113
+        },
+        {
+            "feature": "Srate",
+            "importance": 0.07689912617206573
+        }
+    ]
+}

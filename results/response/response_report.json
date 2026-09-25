@@ -1,0 +1,7 @@
+{
+    "total_samples": 5000,
+    "actions": {
+        "BLOCK_AND_ISOLATE": 4980,
+        "MONITOR_AND_LOG": 20
+    }
+}

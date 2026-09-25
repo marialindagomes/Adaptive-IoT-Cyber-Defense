@@ -1,0 +1,9 @@
+{
+    "experiment": "final_supervised_unknown_drift",
+    "total_samples": 5049999,
+    "total_errors": 68249,
+    "drift_count": 1,
+    "drift_points": [
+        2500319
+    ]
+}

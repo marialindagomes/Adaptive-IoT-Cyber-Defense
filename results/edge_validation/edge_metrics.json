@@ -1,0 +1,26 @@
+{
+    "dataset": "Edge-IIoTset",
+    "samples": 112759,
+    "class_distribution": {
+        "0": 87897,
+        "1": 24862
+    },
+    "accuracy": 0.22048794331272892,
+    "precision": 0.22048794331272892,
+    "recall": 1.0,
+    "f1_score": 0.3613111371084355,
+    "macro_f1": 0.18065556855421774,
+    "mcc": 0.0,
+    "roc_auc": 0.5,
+    "confusion_matrix": [
+        [
+            0,
+            87897
+        ],
+        [
+            0,
+            24862
+        ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n           0       0.00      0.00      0.00     87897\n           1       0.22      1.00      0.36     24862\n\n    accuracy                           0.22    112759\n   macro avg       0.11      0.50      0.18    112759\nweighted avg       0.05      0.22      0.08    112759\n"
+}

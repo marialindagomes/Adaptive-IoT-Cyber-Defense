@@ -1,0 +1,9 @@
+{
+    "total_csv_files": 26,
+    "total_rows": 23316623,
+    "total_classes": 2,
+    "labels": {
+        "1": 10466766,
+        "0": 12849857
+    }
+}
