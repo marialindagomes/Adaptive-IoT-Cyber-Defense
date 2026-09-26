@@ -24,6 +24,8 @@ ENV/
 data/raw/
 data/interim/
 data/processed/
+results/streaming/stream_predictions.csv
+results/unseen_attack/detection_results.csv
 
 
 # Large dataset extensions

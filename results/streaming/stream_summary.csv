@@ -1,0 +1,4 @@
+metric,value
+total_samples,32283802
+drift_detected,1
+drift_point,2500319
