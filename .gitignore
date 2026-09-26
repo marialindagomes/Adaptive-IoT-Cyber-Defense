@@ -67,14 +67,16 @@ data/processed/
 
 
 # =====================================================
-# Keep Paper Figures
+# Keep Paper Figures & tables
 # =====================================================
 
 !figures/
 !figures/**/*.png
 !figures/**/*.jpg
 !figures/**/*.pdf
-
+!tables/
+!tables/**/*.csv
+!tables/**/*.xlsx
 
 # =====================================================
 # Logs
